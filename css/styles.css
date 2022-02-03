@@ -1,0 +1,168 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --primary-title-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --features-background-color: #e5e5e5;
+  --team-background-color: #f5f4fa;
+}
+
+/*цвет заголовков #212121 */
+
+/*цвет основного текста #757575 */
+
+/*голубой #2196F3 */
+
+/*белый #ffffff */
+
+/*цвет текста в футере rgba(255, 255, 255, 0.6); */
+
+/*цвет фона секции и футера  #2F303A */
+
+/*цвет фона секции #E5E5E5 */
+
+/*цвет фона секции #F5F4FA */
+
+header {
+  background-color: var(--white-color);
+  color: var(--primary-title-color);
+}
+ul {
+  list-style: none;
+}
+/*header*/
+.logo-header {
+  color: var(--primary-title-color);
+}
+
+.page-header .accent,
+.page-footer .accent {
+  color: var(--accent-color);
+}
+
+.page-header .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--primary-title-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.adress-nav .link {
+  color: var(--primary-text-color);
+}
+
+.adress-nav .link:hover,
+.adress-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*make-order-section*/
+
+.order {
+  background-color: var(--footer-background-color);
+}
+
+.order .order-title {
+  color: var(--white-color);
+}
+
+.order .btn {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/*features-section*/
+
+.features,
+.works {
+  background-color: var(--features-background-color);
+}
+
+.features .features-title {
+  display: none;
+}
+
+.features .title {
+  color: var(--primary-title-color);
+}
+
+.features .text {
+  color: var(--primary-text-color);
+}
+
+/*works-section*/
+
+.works .works-title {
+  color: var(--primary-title-color);
+}
+
+/*team-section*/
+
+.team {
+  background-color: var(--team-background-color);
+}
+
+.team .team-title,
+.team .name {
+  color: var(--primary-title-color);
+}
+
+.team .position {
+  color: var(--primary-text-color);
+}
+
+/*footer*/
+
+footer {
+  background-color: var(--footer-background-color);
+}
+
+.page-footer .logo-footer {
+  color: var(--white-color);
+}
+
+.footer-adress .adress {
+  color: var(--white-color);
+}
+
+.footer-adress .mail,
+.footer-adress .tel {
+  color: var(--secondary-text-color);
+}
+
+/*portfolio*/
+
+.portfolio {
+  background-color: var(--features-background-color);
+}
+
+.portfolio .portfolio-title {
+  display: none;
+}
+
+.portfolio .button {
+  background-color: var(--team-background-color);
+  color: var(--primary-title-color);
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.cards .card-title {
+  color: var(--primary-title-color);
+}
+
+.cards .card-text {
+  color: var(--primary-text-color);
+}
