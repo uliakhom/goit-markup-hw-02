@@ -54,6 +54,10 @@ ul {
 
 .page-header .link-current {
   color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 
   text-decoration: none;
 }
@@ -112,6 +116,7 @@ ul {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+  font-family: inherit;
 }
 
 /*features-section*/
@@ -190,6 +195,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
 
+  font-style: normal;
   text-decoration: none;
 }
 
@@ -199,6 +205,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
 
+  font-style: normal;
   text-decoration: none;
 }
 
@@ -227,6 +234,7 @@ ul {
   text-align: center;
 
   cursor: pointer;
+  font-family: inherit;
 }
 
 .portfolio .button:hover,
